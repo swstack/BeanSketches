@@ -11,3 +11,8 @@ Blink the LED every ~5 seconds. Probably not the best sketch to run on a coincel
 ## `serial_loopback`
 
 Read all incoming bytes from the serial port 1-by-1 and write them back over the serial port unadulterated.
+
+
+## `neopixel`
+
+Simple sketch that uses the Adafruit Neopixel library.
