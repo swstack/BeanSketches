@@ -6,7 +6,7 @@
 #define GREEN 200
 #define BLUE 0
 
-Adafruit_NeoPixel strip = Adafruit_NeoPixel(8, PIN, NEO_RGB + NEO_KHZ400);
+Adafruit_NeoPixel strip = Adafruit_NeoPixel(8, PIN, NEO_GRB + NEO_KHZ800);
 
 void setup() {
   strip.begin();
