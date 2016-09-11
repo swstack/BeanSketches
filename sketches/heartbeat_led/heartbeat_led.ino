@@ -3,9 +3,9 @@ void setup() {
 }
 
 void loop() {
-    uint8_t blue = 255;
+    uint8_t blue = 100;
     uint8_t off = 0;
- 
+
     Bean.setLedBlue(blue);
     Bean.sleep(500);
     Bean.setLedBlue(off);
