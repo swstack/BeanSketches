@@ -27,8 +27,9 @@ void sendCommand(int command) {
       break;
     default:
       break;
-
   }
+
+  Serial.flush();
 }
 
 
