@@ -8,5 +8,17 @@ void PatternController::setPattern(int pattern)
 
 void PatternController::service()
 {
-  Bean.setLed(255, 0, 0);
+  switch (this->currentPattern) {
+    case PATTERN_1:
+      Bean.setLed(100, 0, 0);
+      break;
+    case PATTERN_2:
+      Bean.setLed(0, 100, 0);
+      break;
+    case PATTERN_3:
+      Bean.setLed(0, 0, 100);
+      break;
+    default:
+      break;
+  }
 }
