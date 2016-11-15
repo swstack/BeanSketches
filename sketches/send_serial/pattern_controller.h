@@ -13,6 +13,7 @@ private:
    int currentPattern;
 public:
    void setPattern(int);
+   int getCurrentPattern();
    void service();
 };
 

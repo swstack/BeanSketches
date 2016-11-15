@@ -40,5 +40,6 @@ void loop() {
   }
 
   pc.service();
+  Serial.write(pc.getCurrentPattern());
   Bean.sleep(5000);
 }

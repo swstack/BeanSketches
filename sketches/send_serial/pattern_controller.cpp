@@ -6,6 +6,11 @@ void PatternController::setPattern(int pattern)
     this->currentPattern = pattern;
 }
 
+int PatternController::getCurrentPattern()
+{
+    return this->currentPattern;
+}
+
 void PatternController::service()
 {
   switch (this->currentPattern) {
